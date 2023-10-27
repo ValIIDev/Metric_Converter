@@ -1,0 +1,5 @@
+﻿B. Metric converter
+User Interface: Design a user friendly interface for the metric converter application. It should be easy to navigate around the UI. Input output should be visible. Consider using buttons, labels, and textboxes to allow users to input numbers and choose unit type.
+Input: Implement proper input validation to ensure program is provided with correct input. Validate that the entered values are numeric and handle any potential errors or exceptions gracefully. Inform the user if invalid information is provided and prevent coversions from proceeding until valid input is received.
+Business logic: Implement length, weight, temperature conversions. For each conversion type allow user to choose any relevant unit (m to yds, m to ft). Conversion units should include: length - kilometers, meters, centimeters, miles, yards, feet, inches; weight - kilograms, grams, pounds, ounces; temperature - celsius, farenheit.
+Error handling: Implement robust error-handling mechanisms in the converter application. Catch and handle any exceptions during conversions. Display meaningful error messages to users and guide them on resolving the issue.
